@@ -1,2 +1,12 @@
 :root {
+    --body-bg-color: #100F0F;
+    --element-color: #F3F3F3;
+    --button-color: rgba(188, 26, 26, 0.2);
+    --active-element-color: rgba(188, 26, 26, 0.5);
+}
+
+body {
+    font: 400 16/1.25 'Montserrat', sans-serif;
+    color: var(--element-color);
+    background-color: var(--body-bg-color);
 }
