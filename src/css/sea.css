@@ -1,0 +1,18 @@
+.swiper-slide {}
+
+.swiper {
+    width: 2400px;
+    height: 1600px;
+}
+
+.swiper-pagination-bullet {
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: chocolate;
+    width: 50px;
+    height: 50px;
+}
