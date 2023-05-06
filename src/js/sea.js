@@ -9,9 +9,9 @@ const swiper = new Swiper('.swiper', {
       clickable: true,
       dynamicBullets: true,
     },
-  slidesPerView: 1.1,
-  spaceBetween: 90, 
-  autoplay: {
+    slidesPerView: 1.1,
+    spaceBetween: 90, 
+    autoplay: {
     delay: 1000,
     // disableOnInteraction: false,
     // stopOnLastSlide: false,
@@ -24,7 +24,7 @@ const swiper = new Swiper('.swiper', {
     },
   
     // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
+    // scrollbar: {
+    //   el: '.swiper-scrollbar',
+    // },
   });
